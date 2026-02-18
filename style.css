@@ -69,12 +69,12 @@ nav a {
     margin-bottom: 1em;
     border-bottom: 1px solid var(--border-gray);
 }
-    /* NOTE: please make sure that in each index.html page you add class="current" to the current page*/
-        /* For example:  <a href="index.html" class="current">Home</a> */
+/* NOTE: please make sure that in each index.html page you add class="current" to the current page*/
+/* For example:  <a href="index.html" class="current">Home</a> */
 
-        nav a.current {
-            border-bottom: 0.4em solid var(--border-gray);
-            padding-bottom: 0.1em;
+nav a.current {
+    border-bottom: 0.4em solid var(--border-gray);
+    padding-bottom: 0.1em;
     /* Add here what your current page should look like at the navigation bar (highlight)*/
 }
 
@@ -94,7 +94,7 @@ nav a:hover {
 /*  STEP 3: Contact form layout */
 
 /* Step 3.1: Integrate typography */
-    /* (you do not need to make any changes here for step 3.1, but please take note of it!) */
+/* (you do not need to make any changes here for step 3.1, but please take note of it!) */
 input,
 textarea,
 button {
@@ -116,7 +116,7 @@ label { /* We'll add the spacing between labels here */
 
 /* Step 3.2: Grid layout */
 
-    /*
+/*
         Please work on grid layout here.
         NOTE: this will override what you did in the previous step! remember *Specificity*
     */
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
     /* ... */
 }
 
-#resume h2{
+#resume h2 {
     border-bottom: 0.1em solid var(--border-gray);
     padding-bottom: 0.2em;
 }
